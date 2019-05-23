@@ -26,8 +26,6 @@ jobs:
 
       # Download and cache dependencies
 
-      # prepare the database
-      - run: php artisan migrate --env=testing --database=sqlite_testing --force
 
       # run tests with phpunit or codecept
       #- run: ./vendor/bin/phpunit
